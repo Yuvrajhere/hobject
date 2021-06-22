@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.App {
+  background: #d99acd;
+  min-height: 100vh;
+  min-width: 100vw;
+
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-1 {
+  padding: 5vh 10vw;
+}
+
+.container-2 {
+  background-color: #f6eaf4;
+  padding: 20px 40px;
+  border-radius: 8px;
+}
+
+.container-3 {
+  padding: 20px 40px;
+  border-radius: 8px;
+
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+@media screen and (max-width: 750px) {
+  .container-1 {
+    padding: 5vh 20px;
+  }
+
+  .container-2 {
+    padding: 20px;
+  }
+
+  .container-3 {
+    padding: 20px;
+  }
+}

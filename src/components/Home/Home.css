@@ -1,0 +1,103 @@
+.Home .add-project-action {
+  margin-bottom: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Home .add-project-action p {
+  color: #422b40;
+}
+
+.Home .add-project-action p span {
+  font-weight: 500;
+  color: #c45649;
+}
+
+.Home .add-project-action button {
+  border: none;
+  padding: 10px 20px;
+  background-color: #c45649;
+  color: #f6eaf4;
+  cursor: pointer;
+  border-radius: 8px;
+
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.Home .add-project-action button:hover {
+  opacity: 0.9;
+}
+
+.Home .projects .header {
+  margin-bottom: 20px;
+  color: #422b40;
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.Home .projects .header h2 {
+  margin-right: 10px;
+  line-height: 1;
+}
+
+.Home .projects .header p {
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+.Home .projects-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, auto));
+  grid-gap: 20px;
+}
+
+.Home .project-card {
+  background-color: #f6eaf4;
+  padding: 20px 40px;
+  border-radius: 8px;
+  color: #422b40;
+}
+
+.Home .project-card:hover {
+  background-color: #ffffff;
+
+}
+
+.Home .project-card h2 {
+  line-height: 1;
+}
+
+.Home .project-card .added, .Home .project-card .edited {
+  font-size: 12px;
+  font-weight: 500;
+  opacity: 0.5;
+}
+
+.Home .project-card .desc {
+  margin: 20px 0;
+  white-space: nowrap;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+.Home .project-card > a {
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  color: #BE7BB1;
+  font-weight: 500;
+}
+
+.Home .projects .no-projects-msg {
+  color: #422b40;
+  font-weight: 500;
+  opacity: 0.9;
+}

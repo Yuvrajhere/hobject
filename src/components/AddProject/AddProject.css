@@ -1,0 +1,119 @@
+.AddProject {
+  color: #422b40;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.AddProject .container-2 h2 {
+  margin-bottom: 20px;
+}
+
+.AddProject label {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.AddProject form .name-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+.AddProject form .name-input input {
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.AddProject form .name-input input::placeholder {
+  color: #422b40;
+  opacity: 0.5;
+}
+
+.AddProject form .desc-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+.AddProject form .desc-input textarea {
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #fff;
+  resize: none;
+  height: 200px;
+}
+
+.AddProject form .desc-input textarea::placeholder {
+  color: #422b40;
+  opacity: 0.5;
+}
+
+.AddProject form .image-link {
+  margin-bottom: 8px;
+  display: flex;
+}
+
+.AddProject form .image-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+.AddProject form .image-input input {
+  border: none;
+  padding: 10px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  background-color: #fff;
+}
+
+.AddProject form .image-input input::placeholder {
+  color: #422b40;
+  opacity: 0.5;
+}
+
+.AddProject .image-input .btn {
+  border: none;
+  background-color: #be7bb1;
+  padding: 5px;
+  cursor: pointer;
+
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.AddProject .image-input .btn:hover {
+  opacity: 0.9;
+}
+
+.AddProject .image-input .image-input-new {
+  display: flex;
+}
+
+.AddProject form .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.AddProject .buttons .submit {
+  border: none;
+  background-color: #be7bb1;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.AddProject .buttons p {
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  color: #BE7BB1;
+  font-weight: 500;
+  cursor: pointer;
+}

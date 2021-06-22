@@ -1,0 +1,127 @@
+.Project .add-project-action {
+  margin-bottom: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Project .add-project-action p {
+  color: #422b40;
+}
+
+.Project .add-project-action p span {
+  font-weight: 500;
+  color: #c45649;
+}
+
+.Project .add-project-action button {
+  border: none;
+  padding: 10px 20px;
+  background-color: #c45649;
+  color: #f6eaf4;
+  cursor: pointer;
+  border-radius: 8px;
+
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.Project .add-project-action button:hover {
+  opacity: 0.9;
+}
+
+.Project .project-details {
+  color: #422b40;
+}
+
+
+.Project .project-details .added, .Project .project-details .edited {
+  font-size: 12px;
+  font-weight: 500;
+  opacity: 0.5;
+}
+
+.Project .project-details .desc {
+  margin: 20px 0;
+}
+
+.Project .project-details .images {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.Project .project-details .images img {
+  width: 300px;
+  height: 300px;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.Project .project-details .buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Project .project-details .buttons > div {
+  display: flex;
+}
+
+.Project .project-details .buttons button {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.Project .project-details .buttons button img {
+  height: 20px;
+  margin-right: 5px;
+}
+
+.Project .project-details .buttons .edit {
+  border: none;
+  background-color: #be7bb1;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.Project .project-details .buttons .delete {
+  border: none;
+  background-color: #c45649;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.Project .project-details .buttons p {
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  color: #BE7BB1;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.Project .project-details button:hover {
+  opacity: 0.7;
+}
+
+.Project .project-details p:hover {
+  color: #422b40;
+}
+
+@media screen and (max-width: 680px) {
+  .Project .project-details .images img {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
